@@ -11,7 +11,7 @@ from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.metrics import confusion_matrix, classification_report
 from sklearn.preprocessing import LabelEncoder
 
-with open('stopword.txt', 'r', encoding='utf-8') as file:
+with open('Stopword.txt', 'r', encoding='utf-8') as file:
     stopwords = set([line.strip() for line in file.readlines()])
 
 # 2、加载数据，进行文本预处理
